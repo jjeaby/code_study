@@ -4,6 +4,8 @@ def solution(N):
     # write your code in Python 3.6
     bi_number = bin( N )
     bi_number = format(N, 'b')
+    # format b, o,  x,  d 
+    #        2, 8,  16,  10 
     print(bi_number)
     prev_b = ''
     max_counter = 0
